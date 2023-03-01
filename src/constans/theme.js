@@ -4,7 +4,7 @@ export const theme = {
     primaryTextColor: '#000000',
     secondaryTextColor: '#FFFFFF',
 
-    buttonTextColor: ' #2C2B2B',
+    buttonTextColor: '#2C2B2B',
     buttonBackgroundColorAccent: '#236B0B',
 
     accentColor: '#F0940A',

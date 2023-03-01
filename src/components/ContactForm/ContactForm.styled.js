@@ -45,7 +45,7 @@ transition: ${({ theme }) => `border ${theme.transition}`};
 outline: none;
 border: ${({ theme }) => `1px solid ${theme.colors.accentColor}`};
 }
- `;
+`;
 
 export const StyledErrorMessage = styled(ErrorMessage)`
 color: red;

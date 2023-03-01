@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { MdOutlineDeleteOutline } from 'react-icons/md';
 
 import {
   StyledContactListItem,
@@ -15,7 +16,7 @@ export const ContactListItem = ({
       <StyledName>{name}:</StyledName>
       <p> {number} </p>
       <StyledButton type="button" onClick={() => onDeleteContact(id)}>
-        Delete
+        <MdOutlineDeleteOutline />
       </StyledButton>
     </StyledContactListItem>
   );
