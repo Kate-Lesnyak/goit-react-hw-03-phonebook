@@ -1,14 +1,14 @@
 import { Component } from 'react';
-import { ContactForm } from './ContactForm/ContactForm';
 import { GlobalStyle } from './GlobaleStyle';
 import { nanoid } from 'nanoid';
+import { Notify } from 'notiflix';
 
+import { ContactForm } from './ContactForm';
 import { ContactList } from './ContactList';
 import { Filter } from './Filter';
 import { Section } from './Section';
 import { Layout } from './Layout';
 import { Notification } from './Notification';
-import { Notify } from 'notiflix';
 
 const LS_KEY = 'contacts';
 
